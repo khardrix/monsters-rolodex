@@ -1,0 +1,10 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid; /* setting the display to grid */
+    /* fit everything into these four columns of equal width or 
+    each one a fraction which is essentially an equal part of 
+    the overall size of what the width of this CardList will be */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; /* setting 20 pixels between each of the four columns */
+  }
